@@ -5,26 +5,26 @@ IMU Project for ECE 4820 REPO - USING PRXYS IMU
 
 Notes to check on:
 - DEEP LEARNING
--> https://blogs.nvidia.com/blog/category/deep-learning/
+- - https://blogs.nvidia.com/blog/category/deep-learning/
 
 - Basic UNDERSTANDING OF IMU
--> https://stanford.edu/class/ee267/lectures/lecture10.pdf
--> https://wiki.dfrobot.com/How_to_Use_a_Three-Axis_Accelerometer_for_Tilt_Sensing#Yaw-Pitch-Roll
+- - https://stanford.edu/class/ee267/lectures/lecture10.pdf
+- - https://wiki.dfrobot.com/How_to_Use_a_Three-Axis_Accelerometer_for_Tilt_Sensing#Yaw-Pitch-Roll
 
 - Other Projects using IMU / more documentations:
--> https://stanford.edu/class/ee267/notes/ee267_notes_imu.pdf
--> https://stanford.edu/class/ee267/notes/ee267_notes_tracking.pdf
--> 
+- - https://stanford.edu/class/ee267/notes/ee267_notes_imu.pdf
+- - https://stanford.edu/class/ee267/notes/ee267_notes_tracking.pdf
+- - 
 
 ================================================================================================================
 
 Other IMU + maybe some documentation:
 - 6 DOF
--> https://www.adafruit.com/product/4502
--> https://www.adafruit.com/product/3886
--> https://www.adafruit.com/product/4464
--> https://invensense.tdk.com/products/motion-tracking/6-axis/icm-20649/
--> https://learn.adafruit.com/lsm6dsox-and-ism330dhc-6-dof-imu
+- - https://www.adafruit.com/product/4502
+- - https://www.adafruit.com/product/3886
+- - https://www.adafruit.com/product/4464
+- - https://invensense.tdk.com/products/motion-tracking/6-axis/icm-20649/
+- - https://learn.adafruit.com/lsm6dsox-and-ism330dhc-6-dof-imu
 
 - I'm leaning towards this one and the 9DOF: (>> please checks <<)
 ->> https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html
