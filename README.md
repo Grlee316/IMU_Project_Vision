@@ -19,6 +19,17 @@ Notes to check on:
 - - https://stanford.edu/class/ee267/notes/ee267_notes_tracking.pdf
 - - 
 
+- QUARTERNIONS
+- - https://www.allaboutcircuits.com/technical-articles/dont-get-lost-in-deep-space-understanding-quaternions/
+- - 
+
+- Computer Vision with Python
+- - https://www.youtube.com/watch?v=01sAkU_NvOY&t=1839s
+- - 
+
+- App that they use to estimate angles:
+- - https://imagej.nih.gov/ij/index.html
+
 ============================================================================================
 
 Other IMU + maybe some documentation:
