@@ -8,7 +8,7 @@ Notes to check on:
 - - https://blogs.nvidia.com/blog/category/deep-learning/
 
 - Basic UNDERSTANDING OF IMU
- - https://stanford.edu/class/ee267/lectures/lecture10.pdf
+- - https://stanford.edu/class/ee267/lectures/lecture10.pdf
 - - https://wiki.dfrobot.com/How_to_Use_a_Three-Axis_Accelerometer_for_Tilt_Sensing#Yaw-Pitch-Roll
 
 - Other Projects using IMU / more documentations:
@@ -27,17 +27,17 @@ Other IMU + maybe some documentation:
 - - https://learn.adafruit.com/lsm6dsox-and-ism330dhc-6-dof-imu
 
 - I'm leaning towards this one and the 9DOF: (>> please checks <<)
-->> https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html
-->> 
+- - https://www.seeedstudio.com/Seeed-XIAO-BLE-Sense-nRF52840-p-5253.html
+- - 
 
 - 9 DOF
-->> https://www.adafruit.com/product/4754
-->> https://www.adafruit.com/product/2472
+- - https://www.adafruit.com/product/4754
+- - https://www.adafruit.com/product/2472
 
--> https://www.adafruit.com/product/4517
--> https://www.adafruit.com/product/4646?gclid=Cj0KCQiAw8OeBhCeARIsAGxWtUxEOS5hOkX3tUtJgrs0Xik7Dnsjhd6MCaFoZPZftOwcQ8dZmMkbl1oaAqUsEALw_wcB
--> https://files.seeedstudio.com/wiki/XIAO-BLE/ST_LSM6DS3TR_Datasheet.pdf
--> 
+- - https://www.adafruit.com/product/4517
+- - https://www.adafruit.com/product/4646?gclid=Cj0KCQiAw8OeBhCeARIsAGxWtUxEOS5hOkX3tUtJgrs0Xik7Dnsjhd6MCaFoZPZftOwcQ8dZmMkbl1oaAqUsEALw_wcB
+- - https://files.seeedstudio.com/wiki/XIAO-BLE/ST_LSM6DS3TR_Datasheet.pdf
+- - 
 
 ================================================================================================================
 
