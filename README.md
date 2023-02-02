@@ -8,7 +8,7 @@ Notes to check on:
 - - https://blogs.nvidia.com/blog/category/deep-learning/
 
 - Basic UNDERSTANDING OF IMU
-- - https://stanford.edu/class/ee267/lectures/lecture10.pdf
+-- https://stanford.edu/class/ee267/lectures/lecture10.pdf
 - - https://wiki.dfrobot.com/How_to_Use_a_Three-Axis_Accelerometer_for_Tilt_Sensing#Yaw-Pitch-Roll
 
 - Other Projects using IMU / more documentations:
