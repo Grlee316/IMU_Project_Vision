@@ -1,7 +1,7 @@
 # IMU_Project
 IMU Project for ECE 4820 REPO - USING PRXYS IMU
 
-================================================================================================================
+==============================================================================================
 
 Notes to check on:
 - DEEP LEARNING
@@ -16,7 +16,7 @@ Notes to check on:
 - - https://stanford.edu/class/ee267/notes/ee267_notes_tracking.pdf
 - - 
 
-================================================================================================================
+==============================================================================================
 
 Other IMU + maybe some documentation:
 - 6 DOF
@@ -39,7 +39,7 @@ Other IMU + maybe some documentation:
 - - https://files.seeedstudio.com/wiki/XIAO-BLE/ST_LSM6DS3TR_Datasheet.pdf
 - - 
 
-================================================================================================================
+==============================================================================================
 
 Good Link for understanding more of IMU and how to interpret it
 - https://www.mdpi.com/1424-8220/14/4/6891
@@ -68,10 +68,14 @@ https://www.researchgate.net/figure/Skeleton-model-imported-in-MATLAB-The-angles
 - (Body Tracking and Skeleton Modelling)
 https://www.stereolabs.com/docs/body-tracking/
 
-=============
+==============================================================================================
+
 Other keywords:
+
 deptheye, icm 073lat imu, icm-20649, e0s16 IC, 
 
+
 Parts:
+
 8ya17 RW213 (FLASH MEMORY)
 
