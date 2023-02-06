@@ -1,0 +1,5 @@
+Main Processor: Atmel Mega32U4 -MU (Arduino RTOS?) USB Port ready.
+ADC: MAX11270
+Flash Memory 1Gb: Micron MT25QL01GBBB (or similar)
+IMU: ICM-20649 (6 axis athletic sensor)
+RTC?: Markings: 375B #542 2417 PHIL (Possibly DS2417)
