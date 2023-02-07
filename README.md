@@ -4,6 +4,20 @@ IMU Project for ECE 4820 REPO - USING PRXYS IMU
 The Prxys imu is based on Arduino Leonardo Architecture, I suppose they use the same IC as:
 - https://docs.arduino.cc/hardware/leonardo
 
+Babak's Previous Project:
+- https://vetsci.org/search.php?where=aview&id=10.4142/jvs.2018.19.4.557&code=0118JVS&vmode=PUBREADER
+- https://www.scopus.com/record/display.uri?eid=2-s2.0-85104245548&origin=inward&txGid=319a70bd4f74ce18d34ff25225f8071b
+- https://www.sciencedirect.com/science/article/pii/S0737080622000739?casa_token=OBTzkOxCFJYAAAAA:YD8eZqBtNn3c27STNEBOy8704GqOQ4AzqWZnxzzEJ4xOlZJ7NgdgTgSouj3iXZDxi-IeUawqOQ
+- https://www.wageningenacademic.com/doi/abs/10.3920/CEP190066
+- https://www.ncbi.nlm.nih.gov/pmc/articles/PMC5508962/
+- https://anatomypubs.onlinelibrary.wiley.com/doi/full/10.1002/ar.a.20173
+- https://avmajournals.avma.org/view/journals/ajvr/70/11/ajvr.70.11.1354.xml
+- https://synapse.koreamed.org/articles/1099239 -> This one with AN Nguyen
+- https://www.sciencedirect.com/science/article/pii/S0737080622000739?casa_token=qqv1ey9sdQkAAAAA:Z6bMti7AyL7ZxakvFsOUFtI9mBa3hGfcVOJ2bL1bh8fDzN4y8Lrsn3Dgr034vLF3qV1AQ_K_-A
+- https://www.sciencedirect.com/science/article/pii/S0737080613009568?casa_token=Ed8oKLGb2d0AAAAA:v02z7U0LwtYOi8pigsQCKbzIluyrl8RNYtk7qpM0uov60gBSFS7EpwPMjlWv68JeskxWKgEGKQ
+- https://www.sciencedirect.com/science/article/pii/S0737080620302999?casa_token=4y7e6JugI-oAAAAA:phgbaoVIG-N8A--IQZvDTCpvffR8HqruyHS-XysYAMJIpk-Y1EkyJCiYnbQC6ugW1bExXA2n9w
+- https://www.sciencedirect.com/science/article/pii/S0737080618301849?casa_token=8SY7FAIfuUIAAAAA:nmIGkD3mGMAI_DOPVGZpVAbYRd61b24NxXUinV78NwTAH5HjyPksesQtO1aZikN6xivceyrkEg
+
 ============================================================================================
 
 Notes to check on:
@@ -17,6 +31,7 @@ Notes to check on:
 - Other Projects using IMU / more documentations:
 - - https://stanford.edu/class/ee267/notes/ee267_notes_imu.pdf
 - - https://stanford.edu/class/ee267/notes/ee267_notes_tracking.pdf
+- - https://www.youtube.com/watch?v=vZMe6denCBs
 - - 
 
 - QUARTERNIONS
@@ -66,6 +81,8 @@ Good Link for understanding more of IMU and how to interpret it
 - https://d1wqtxts1xzle7.cloudfront.net/71039855/826-829-libre.pdf?1633208543=&response-content-disposition=inline%3B+filename%3DA_Review_of_Accelerometer_Sensor_and_Gyr.pdf&Expires=1675287397&Signature=gw0TuWcegHXkPn6jtdRh7BIMtyFpwZ4xWck8lKQphV-Y7bMA0yj9Uc6k1~deLGda6Mlf2Ytox-mXV0SgfVs6BncW68IO77EIBJgU0CL95Uk0sS8oKU5mf3OBxmCP1FC93TJ7j1lelfETRQi0i5P583IMddcRKoET0dwRFizsiHH1PxxOVEwbzDB2jBymaS9F46hE31ZfItk1DSnsguWG09QbMz7vjKOYCPpn2QSulT8pGrcD92jVyp3tOdZC43jBIgKTJ1ZMcwXJM1OzJqkOpE-FgUm96O9VhV-ir3I9KZ~gFmJPRCxWzpfeWPqz9Nzn64U7EgfDlQZgGbMSXCoCdw__&Key-Pair-Id=APKAJLOHF5GGSLRBV4ZA
 - https://ieeexplore.ieee.org/abstract/document/8606925
 - https://arxiv.org/abs/1904.06064
+- https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8996696&fileOId=8996707
+- https://bme.lth.se/fileadmin/biomedicalengineering/Examensarbeten/1913_Ahmed_art.pdf
 - 
 
 Professional Applications:
