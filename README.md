@@ -4,6 +4,9 @@ IMU Project for ECE 4820 REPO - USING PRXYS IMU
 The Prxys imu is based on Arduino Leonardo Architecture, I suppose they use the same IC as:
 - https://docs.arduino.cc/hardware/leonardo
 
+About the professor that we work with:
+- https://www.westernu.edu/faramarzi/people.html
+
 Babak's Previous Project:
 - https://vetsci.org/search.php?where=aview&id=10.4142/jvs.2018.19.4.557&code=0118JVS&vmode=PUBREADER
 - https://www.scopus.com/record/display.uri?eid=2-s2.0-85104245548&origin=inward&txGid=319a70bd4f74ce18d34ff25225f8071b
