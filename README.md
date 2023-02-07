@@ -35,10 +35,16 @@ Notes to check on:
 - - https://stanford.edu/class/ee267/notes/ee267_notes_imu.pdf
 - - https://stanford.edu/class/ee267/notes/ee267_notes_tracking.pdf
 - - https://www.youtube.com/watch?v=vZMe6denCBs
+- - https://stanford.edu/class/ee267/notes/ee267_notes_graphicspipeline.pdf
+- - https://stanford.edu/class/ee267/notes/sutherland_hmd.pdf
+- - 
 - - 
 
 - QUARTERNIONS
 - - https://www.allaboutcircuits.com/technical-articles/dont-get-lost-in-deep-space-understanding-quaternions/
+- - https://en.wikipedia.org/wiki/Quaternion
+- - https://en.wikipedia.org/wiki/Quaternions_and_spatial_rotation
+- - https://stackoverflow.com/questions/5782658/extracting-yaw-from-a-quaternion
 - - 
 
 - Computer Vision with Python
