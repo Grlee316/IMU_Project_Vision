@@ -30,6 +30,8 @@ Notes to check on:
 - Basic UNDERSTANDING OF IMU
 - - https://stanford.edu/class/ee267/lectures/lecture10.pdf
 - - https://wiki.dfrobot.com/How_to_Use_a_Three-Axis_Accelerometer_for_Tilt_Sensing#Yaw-Pitch-Roll
+- - https://www.allaboutcircuits.com/technical-articles/how-to-interpret-IMU-sensor-data-dead-reckoning-rotation-matrix-creation/
+- - 
 
 - Other Projects using IMU / more documentations:
 - - https://stanford.edu/class/ee267/notes/ee267_notes_imu.pdf
@@ -37,6 +39,7 @@ Notes to check on:
 - - https://www.youtube.com/watch?v=vZMe6denCBs
 - - https://stanford.edu/class/ee267/notes/ee267_notes_graphicspipeline.pdf
 - - https://stanford.edu/class/ee267/notes/sutherland_hmd.pdf
+- - https://josephmalloch.wordpress.com/portfolio/imu-sensor-fusion/
 - - 
 - - 
 
@@ -75,6 +78,7 @@ Other IMU + maybe some documentation:
 - - https://www.adafruit.com/product/4517
 - - https://www.adafruit.com/product/4646?gclid=Cj0KCQiAw8OeBhCeARIsAGxWtUxEOS5hOkX3tUtJgrs0Xik7Dnsjhd6MCaFoZPZftOwcQ8dZmMkbl1oaAqUsEALw_wcB
 - - https://files.seeedstudio.com/wiki/XIAO-BLE/ST_LSM6DS3TR_Datasheet.pdf
+- - https://learn.adafruit.com/adafruit-bno055-absolute-orientation-sensor
 - - 
 
 ============================================================================================
