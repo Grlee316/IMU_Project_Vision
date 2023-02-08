@@ -96,6 +96,22 @@ Good Link for understanding more of IMU and how to interpret it
 - https://arxiv.org/abs/1904.06064
 - https://lup.lub.lu.se/luur/download?func=downloadFile&recordOId=8996696&fileOId=8996707
 - https://bme.lth.se/fileadmin/biomedicalengineering/Examensarbeten/1913_Ahmed_art.pdf
+- https://koreascience.kr/article/JAKO201106736916884.pdf
+- https://ieeexplore.ieee.org/abstract/document/8323826/references#references
+- https://ieeexplore.ieee.org/abstract/document/7778173
+- https://www.mdpi.com/1424-8220/12/2/2255
+- https://citeseerx.ist.psu.edu/document?repid=rep1&type=pdf&doi=cc2ba84a4d6e06fd85ad434f5b1a8545c1cc993c
+- https://www.mdpi.com/1424-8220/19/13/2945
+- https://ieeexplore.ieee.org/abstract/document/8434292
+
+
+Really Good Stuffs:
+- https://ieeexplore.ieee.org/abstract/document/8944545/references#references
+- https://ieeexplore.ieee.org/abstract/document/7516603
+- https://ieeexplore.ieee.org/abstract/document/7370310
+- https://ieeexplore.ieee.org/abstract/document/5975346
+- https://towardsdatascience.com/gradient-descent-algorithm-a-deep-dive-cf04e8115f21
+- 
 - 
 
 Professional Applications:
@@ -115,7 +131,7 @@ https://www.stereolabs.com/docs/body-tracking/
 ============================================================================================
 
 Other keywords:
-deptheye, icm 073lat imu, icm-20649, e0s16 IC, 
+deptheye, icm 073lat imu, icm-20649, e0s16 IC, Gradient Descent Algorithm
 
 
 Parts:
