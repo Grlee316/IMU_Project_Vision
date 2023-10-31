@@ -2,7 +2,7 @@ clc
 clear all
 close all
 warning off
-c = VideoReader('Horse-9.mp4');
+c = VideoReader('Horse-2.mp4');
 %Specify that reading should begin 0.5 second from the beginning of the file by setting the CurrentTime property.
 c.CurrentTime = 0.5;
 
