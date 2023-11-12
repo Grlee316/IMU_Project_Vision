@@ -45,12 +45,12 @@ while hasFrame(c)
 
     % labeled Frame will contain the label matrix that contains labels for
     % the 8-connected objects found in BW
-    % ------------------------------------
+
     % numBlobs will contain the number of connected objects found in BW
     [labeledFrame, numBlobs] = bwlabel(BW);
 
     %%%%NEED TO COMMENT
-
+    
     % Measure properties of the blobs
     blobMeasurements = regionprops(labeledFrame, 'Area');
 
