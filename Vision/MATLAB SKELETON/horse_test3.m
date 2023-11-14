@@ -68,10 +68,10 @@ while hasFrame(c)
 
     % Display the original frame with the largest blob
 
-    imshowpair(vidFrame, largestBlobMask, 'montage');
+    % imshowpair(vidFrame, largestBlobMask, 'montage');
 
-    % mkdir4 = bwmorph(largestBlobMask,'skel',inf);
-    % imshowpair(vidFrame,mkdir4,'montage');
+    mkdir4 = bwmorph(largestBlobMask,'skel',inf);
+    imshowpair(vidFrame,mkdir4,'montage');
     pause(1/c.FrameRate);
 end
 
