@@ -32,3 +32,13 @@ Information in regards of the MATLAB function being used for this project, their
 - [Morphological Operations](https://www.mathworks.com/help/images/morphological-filtering.html)
 
 Morphology is a broad set of image processing operations that process images based on shapes. In a morphological operation, each pixel in the image is adjusted based on the value of other pixels in its neighborhood. By choosing the size and shape of the neighborhood, you can construct a morphological operation that is sensitive to specific shapes in the input image.
+
+===========================================================================
+
+Improvements:
+[x] Better color masking
+[x] Blob Analysis to minimize other objects
+[ ] Minimize the missing hoof masking (less mask perhaps)
+[ ] Cleaner skeleton with only main line showings
+[ ] Overlay the skeleton with lines to have a thicker and better skeletons
+[ ] Writing the video output as a file for ease of use
