@@ -7,7 +7,6 @@ The main maintainer and contributor for this project is me, Jonathan Hanbali
 Information in regards of the MATLAB function being used for this project, their brief description, and help link to matlab help in alphabetical order:
 
 - (bwlabel)[https://www.mathworks.com/help/images/ref/bwlabel.html?searchHighlight=bwlabel&s_tid=srchtitle_support_results_1_bwlabel] - Label connected components in 2-D binary image
-
 - bwmorph
 - close
 - hasFrame
