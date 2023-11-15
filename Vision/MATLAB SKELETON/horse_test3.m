@@ -13,9 +13,9 @@ c = VideoReader('Horse-5.mp4');
 c.CurrentTime = 0.5;
 
 % Create a VideoWriter object to save the output video (optional)
-outputVideoFile = 'output_video.avi';
-outputVideoWriter = VideoWriter(outputVideoFile, 'Uncompressed AVI');
-open(outputVideoWriter);
+% outputVideoFile = 'output_video.avi';
+% outputVideoWriter = VideoWriter(outputVideoFile, 'Uncompressed AVI');
+% open(outputVideoWriter);
 
 % While the video frame is available to read
 while hasFrame(c)
@@ -49,31 +49,54 @@ while hasFrame(c)
     % numBlobs will contain the number of connected objects found in BW
     [labeledFrame, numBlobs] = bwlabel(BW);
 
-    %%%%NEED TO COMMENT
-
-    % Measure properties of the blobs
+    % Measure properties of the image region (blobs)
+    % Area will gives you Actual number of pixels in the region, returned as a scalar. 
+    % This value might differ slightly from the value returned by bwarea, 
+    % which weights different patterns of pixels differently
     blobMeasurements = regionprops(labeledFrame, 'Area');
 
-    % Find the index of the largest blob
+    % Find the index of the largest blob using the maximium element of
+    % array. we will ignorethe max number and just grabbing the index (idx)
     [~, idx] = max([blobMeasurements.Area]);
 
     % Create a binary mask with only the largest blob
+    % ismember will return an array elements that are amembers of set array
     largestBlobMask = ismember(labeledFrame, idx);
 
-    % Convert logical mask to uint8
+    % Convert logical mask to uint8 (8-bit unsigned integer)
     largestBlobMaskUint8 = im2uint8(largestBlobMask);
 
     % Write the frame with the largest blob to the output video (optional)
-    writeVideo(outputVideoWriter, largestBlobMaskUint8);
+    % writeVideo(outputVideoWriter, largestBlobMaskUint8);
 
+    % ======
     % Display the original frame with the largest blob
-
+    % This part will show the horse as the whole horse instead of the
+    % skeleton part
     % imshowpair(vidFrame, largestBlobMask, 'montage');
+    % -------
 
+    % ======
+    % this is the part from the previous code that will show the "skeleton"
+    % part of the horse
+
+    % bwmorph will create a morphological operations on binary image
+    % skel will give the "image skeleton"
+    % remove will give the outline of the horse
+    % will will applies the operation until the image no longer changes
     mkdir4 = bwmorph(largestBlobMask,'skel',inf);
-    imshowpair(vidFrame,mkdir4,'montage');
+
+    % imshowpair will compare the difference between images
+    % montage will show image a and b next to each other
+    % blend will overlays image a and b using alpha blending
+    imshowpair(vidFrame,mkdir4,'blend');
+
+    % pause will stop MATLAB execution temporarily
+    % c is the video file object
+    
     pause(1/c.FrameRate);
+    % -------
 end
 
 % Close the output video writer (optional)
-close(outputVideoWriter);
+% close(outputVideoWriter);
