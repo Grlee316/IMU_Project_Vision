@@ -94,7 +94,7 @@ while hasFrame(c)
     % pause will stop MATLAB execution temporarily
     % c is the video file object
     
-    pause(1/c.FrameRate);
+    % pause(1/c.FrameRate);
     % -------
 end
 
