@@ -6,6 +6,9 @@ The main maintainer and contributor for this project is me, Jonathan Hanbali
 
 For more information of the MATLAB functions that are being used, please check our wiki page
 
+For more information about the parent repository for this project, please visit:
+[Hoof - IMU](https://github.com/kyobg/HOOF-IMU)
+
 ===========================================================================
 
 Improvements:
