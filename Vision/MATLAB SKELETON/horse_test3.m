@@ -85,11 +85,12 @@ while hasFrame(c)
     % remove will give the outline of the horse
     % will will applies the operation until the image no longer changes
     mkdir4 = bwmorph(largestBlobMask,'skel',inf);
+    mkdir5 = bwmorph(mkdir4, 'skel', 'branchpoints');
 
     % imshowpair will compare the difference between images
     % montage will show image a and b next to each other
     % blend will overlays image a and b using alpha blending
-    imshowpair(vidFrame,mkdir4,'blend');
+    imshowpair(vidFrame,mkdir5,'blend');
 
     % pause will stop MATLAB execution temporarily
     % c is the video file object
