@@ -2,9 +2,9 @@
 # This Repository is for the IMU PROJECT - EGR 4820 - 4830
 
 This Repo will contains the development of the Computer Vision Aspect of this project
-The main maintainer and contributor for this project is me, Jonathan Hanbali
+The main maintainer and contributor for this project is me, Jonathan Hanbali.
 
-For more information of the MATLAB functions that are being used, please check our wiki page
+For more information of the MATLAB functions that are being used, please check our wiki page. For this project, we are using MATLAB version 2021b
 
 For more information about the parent repository for this project, please visit:
 [Hoof - IMU](https://github.com/kyobg/HOOF-IMU)
