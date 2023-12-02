@@ -37,4 +37,4 @@ Improvements:
 ===========================================================================
 
 Notes:
-- This project is based on Image Toolbox Applications on MATLAB. In order to make this project to work properly, you would need to download the Image Toolbox from MATLAB
+- This project is based on [Image Processing Toolbox](https://www.mathworks.com/products/image.html) on MATLAB. In order to make this project to work properly, you would need to download the Image Processing Toolbox from MATLAB and install it on your computer.
