@@ -10,10 +10,13 @@ For more information about the parent repository for this project, please visit:
 [Hoof - IMU](https://github.com/kyobg/HOOF-IMU)
 
 Before Blob Analysis:
+![WithoutBlob](Assets/Images//withoutBlob.png)
 
 After Blob Analysis:
 ![Blob](Assets/Images/Blob_Example.png)
 ![Blob2](Assets/Images/Blob_Example2.png)
+
+Notice that before the blob analysis, we encounter a lot of noise, since the color difference method is not perfect in essence (it will also read some other colors that the image/video contains, so not everything is isolated). The blob analysis will analyze the image/video and will eliminate "smaller blobs", such that we have an isolated image of the bigger blobs since we tailored our color masking to the color of the horse itself. 
 
 ===========================================================================
 
