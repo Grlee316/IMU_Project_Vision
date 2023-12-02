@@ -18,6 +18,12 @@ After Blob Analysis:
 
 Notice that before the blob analysis, we encounter a lot of noise, since the color difference method is not perfect in essence (it will also read some other colors that the image/video contains, so not everything is isolated). The blob analysis will analyze the image/video and will eliminate "smaller blobs", such that we have an isolated image of the bigger blobs since we tailored our color masking to the color of the horse itself. 
 
+Our current progress is located at:
+[Horse 3](Vision/MATLAB%20SKELETON/horse_test3.m)
+
+Current Mask:
+[Mask 6](Vision/MATLAB%20SKELETON/createMask6.m)
+
 ===========================================================================
 
 Improvements:
