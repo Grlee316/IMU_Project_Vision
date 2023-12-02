@@ -33,3 +33,8 @@ Improvements:
 - [ ] Cleaner skeleton with only main line showings
 - [ ] Overlay the skeleton with lines to have a thicker and better skeletons
 - [ ] Writing the video output as a file for ease of use
+
+===========================================================================
+
+Notes:
+- This project is based on Image Toolbox Applications on MATLAB. In order to make this project to work properly, you would need to download the Image Toolbox from MATLAB
