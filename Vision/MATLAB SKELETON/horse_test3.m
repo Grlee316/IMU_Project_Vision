@@ -5,7 +5,7 @@ warning off
 
 % Create an object to read video files
 % We will read for this example, the video 5
-c = VideoReader('Horse-5.mp4');
+c = VideoReader('Horse-1.mp4');
 
 % Timestamp of video frame to read
 % by setting up Current Time = 0.5, we will start reading the video from
@@ -73,7 +73,7 @@ while hasFrame(c)
     % Display the original frame with the largest blob
     % This part will show the horse as the whole horse instead of the
     % skeleton part
-    % imshowpair(vidFrame, largestBlobMask, 'montage');
+    imshowpair(vidFrame, largestBlobMask, 'montage');
     % -------
 
     % ======
@@ -90,7 +90,7 @@ while hasFrame(c)
     % imshowpair will compare the difference between images
     % montage will show image a and b next to each other
     % blend will overlays image a and b using alpha blending
-    imshowpair(vidFrame,mkdir5,'blend');
+    % imshowpair(vidFrame,mkdir5,'blend');
 
     % pause will stop MATLAB execution temporarily
     % c is the video file object

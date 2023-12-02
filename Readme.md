@@ -9,6 +9,12 @@ For more information of the MATLAB functions that are being used, please check o
 For more information about the parent repository for this project, please visit:
 [Hoof - IMU](https://github.com/kyobg/HOOF-IMU)
 
+Before Blob Analysis:
+
+After Blob Analysis:
+![Blob](Assets/Images/Blob_Example.png)
+![Blob2](Assets/Images/Blob_Example2.png)
+
 ===========================================================================
 
 Improvements:
