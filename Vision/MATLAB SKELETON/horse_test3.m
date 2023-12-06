@@ -26,7 +26,7 @@ while hasFrame(c)
     % Threshold the current frame using createMask6 function
     % Mask is obtained from a stillframe captured from one of the video
     % We then used the stillframe to create mask by using color tresholder
-    [BW, ~] = createMask6(vidFrame);
+    [BW, ~] = createMask9(vidFrame);
 
     % Perform morphological operations to enhance the binary mask (optional)
     % This function will create a flat structuring element
@@ -73,7 +73,7 @@ while hasFrame(c)
     % Display the original frame with the largest blob
     % This part will show the horse as the whole horse instead of the
     % skeleton part
-    imshowpair(vidFrame, largestBlobMask, 'montage');
+    % imshowpair(vidFrame, largestBlobMask, 'blend');
     % -------
 
     % ======
@@ -90,7 +90,7 @@ while hasFrame(c)
     % imshowpair will compare the difference between images
     % montage will show image a and b next to each other
     % blend will overlays image a and b using alpha blending
-    % imshowpair(vidFrame,mkdir5,'blend');
+    imshowpair(vidFrame,mkdir5,'blend');
 
     % pause will stop MATLAB execution temporarily
     % c is the video file object
