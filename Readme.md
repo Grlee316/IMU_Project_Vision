@@ -48,5 +48,6 @@ Notes:
 - This project is based on [Image Processing Toolbox](https://www.mathworks.com/products/image.html) on MATLAB. In order to make this project to work properly, you would need to download the Image Processing Toolbox from MATLAB and install it on your computer.
 
 Other Notes:
-- [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables) for Markdown language\
+- [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#tables) for Markdown language
 - [Basic](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) Github writing and syntax
+- [Checkbox](https://stackoverflow.com/questions/47344571/how-to-draw-checkbox-or-tick-mark-in-github-markdown-table) or tickbox emoji
