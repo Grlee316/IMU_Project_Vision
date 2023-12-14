@@ -1,7 +1,7 @@
 % Coordinates of the joints (A, B, C)
-A = [5, 10]; % Replace with actual coordinates (hip)
-B = [5.1, 5.75]; % Replace with actual coordinates (knee)
-C = [5.089, 1]; % Replace with actual coordinates (ankle)
+A = [1, 1]; % Replace with actual coordinates (hip)
+B = [5, 5]; % Replace with actual coordinates (knee)
+C = [5, 1]; % Replace with actual coordinates (ankle)
 
 % Calculate the vectors AB and BC
 AB = A - B;
@@ -31,6 +31,8 @@ title(['Angle between lines: ', num2str(angleDegrees), ' degrees']);
 legend('Thigh (AB)', 'Shin (BC)', 'Hip (A)', 'Knee (B)', 'Ankle (C)');
 grid on;
 hold off;
+axis equal;
+
 
 disp(['The angle between the lines (thigh and shin) is: ', num2str(angleDegrees), ' degrees']);
 
